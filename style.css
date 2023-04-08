@@ -1,0 +1,148 @@
+﻿/* CSS Tema Espaço com imagem de fundo esmaecida */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #030303;
+  color: #FFFFFF;
+  margin: 0;
+  background-image: url('eclipse-1492818 (1).jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  background-color: rgba(38, 38, 38, 0.7);
+  border-bottom: 2px solid #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #E04B4B;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: rgb(171, 171, 245);
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  align-self: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.5;
+  
+}
+
+footer {
+  background-color: #262626;
+  border-top: 2px solid #FFFFFF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  nav a {
+    font-size: 16px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  li {
+    font-size: 16px;
+  }
+}
